@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LunarSMP | Server Minecraft</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="stars"></div>
+
+<nav>
+
+<div class="logo">
+🌙 LunarSMP
+</div>
+
+<ul>
+<li><a href="index.html">Acasă</a></li>
+<li><a href="features.html">Features</a></li>
+<li><a href="staff.html">Staff</a></li>
+<li><a href="rules.html">Reguli</a></li>
+<li><a href="store.html">Magazin</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<header>
+
+<h1>Bine ai venit pe LunarSMP</h1>
+
+<p>Cel mai tare server Survival din România.</p>
+
+<div class="buttons">
+
+<button onclick="copyIP()">
+📋 Copiază IP
+</button>
+
+<a class="discord" href="https://discord.gg/">
+Discord
+</a>
+
+</div>
+
+<div class="status">
+
+🟢 ONLINE
+
+<br><br>
+
+IP:
+
+<b>play.lunarsmp.ro</b>
+
+<br><br>
+
+<span id="players">
+Se încarcă...
+</span>
+
+</div>
+
+</header>
+
+<section>
+
+<h2>De ce LunarSMP?</h2>
+
+<div class="cards">
+
+<div class="card">
+
+⚔️
+
+<h3>PvP</h3>
+
+<p>Învinge-ți adversarii în lupte epice.</p>
+
+</div>
+
+<div class="card">
+
+🏠
+
+<h3>Survival</h3>
+
+<p>Construiește, explorează și dezvoltă-ți baza.</p>
+
+</div>
+
+<div class="card">
+
+💰
+
+<h3>Economy</h3>
+
+<p>Comercializează obiecte și devino cel mai bogat.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 LunarSMP - Toate drepturile rezervate.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
